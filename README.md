@@ -1,5 +1,7 @@
 # A React App that fetches and display various recipes as per the keywords from 'Edamam Recipe Search API'
 
+![Screenshot 2022-01-11 at 7 05 22 PM](https://user-images.githubusercontent.com/62458685/148953321-f8192668-6fcf-40b8-927b-1fe3221b0d66.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
