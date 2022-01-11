@@ -5,7 +5,7 @@ const Recipe = (props) => {
 	return (
 		<div className={style.recipe}>
 			<h1>{props.title}</h1>
-			<p>{props.calories}</p>
+			<p>{Math.floor(props.calories)} cals</p>
 			<ul>
 				{props.ingredients.map((ingredient) => {
 					return <li>{ingredient.text}</li>;

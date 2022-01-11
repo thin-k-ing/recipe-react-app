@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { uid } from "uid";
 import "./App.css";
 import Recipe from "./Recipe";
+import style from "./recipe.module.css";
 
 const App = () => {
 	const [recipes, setRecipes] = useState([]);
@@ -33,6 +34,7 @@ const App = () => {
 
 	return (
 		<div className="App">
+			<h1 className={style.heading}>Recipes with React</h1>
 			<form onSubmit={getSearch} action="" className="search-form">
 				<input
 					type="text"

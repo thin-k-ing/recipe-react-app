@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=The+Nautigal:wght@400;700&display=swap');
+
 .recipe {
     border-radius: 10px;
     box-shadow: 0 5px 20px rgb(71, 71, 71);
@@ -9,10 +11,20 @@
     align-items: center;
     min-width: 40%;
     padding: 10px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .image {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.heading {
+    font-family: 'The Nautigal', cursive;
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+    color: #0C1E7F;
+    font-weight: bold;
 }
